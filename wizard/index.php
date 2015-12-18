@@ -10,6 +10,8 @@
 <?php
 define('FC_EOL', 21);
 define('EL_EOL', 4);
+define('COUNTER', __DIR__ . "/counter.txt");
+
 $osvers = [
     'RHEL 7'    => '5.4',
     'RHEL 6'    => '5.3',
@@ -89,6 +91,8 @@ $type = (isset($_POST['type']) && isset($types[$_POST['type']])  ? $_POST['type'
                                     <h2>Wizard answer</h2>
                                     <ul class="pkglist">
 <?php
+$counter = intval(@file_get_contents(COUNTER));
+
 //printf("<p>Debug: $os, $type, $php (%s)</p>", print_r($_POST, true));
 $err = false;
 if ($os) {
@@ -164,6 +168,8 @@ if ($php && $os && $type && !$err) {
             printf("<pre>    php --version\n    php --modules</pre>");
             printf("</li><br />");
         }
+        $counter++;
+        @file_put_contents(COUNTER, "$counter\n");
     } else {
         printf("<li>You want <b>multiple versions </b> which means using a <a href='https://www.softwarecollections.org/en/'>Software Collection</a></li><br />");
         $scl='php'.str_replace('.', '', $php);
@@ -188,6 +194,8 @@ if ($php && $os && $type && !$err) {
         printf("<li>Command to check the installed version and available extensions:");
         printf("<pre>    %s --version\n    %s --modules</pre>", $scl, $scl);
         printf("</li><br />");
+        $counter++;
+        @file_put_contents(COUNTER, "$counter\n");
     }
 } else if (!$os) {
     echo "<li><p>Please select the operating system you are running.</p></li>";
@@ -207,6 +215,9 @@ if ($php && $os && $type && !$err) {
 				<ul class="levbarlist">
 					<li><a href="http://blog.remirepo.net/pages/Config-en" class="nlink" title="Repository configuration">Repository configuration</a></li>
 					<li><a href="http://blog.remirepo.net/pages/English-FAQ"  class="nlink" title="F.A.Q.">F.A.Q.</a></li>
+					<li><?php
+					printf("<b>%d answers</b> given", $counter);
+					?></li>
 				</ul><br /><br /><br />
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><div>
 <input type="hidden" name="cmd" value="_s-xclick" />
