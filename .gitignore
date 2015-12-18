@@ -1,0 +1,10 @@
+priv/
+temp/
+work/
+*.tgz
+fedora/
+enterprise/
+SRPMS/
+.Trash-100/
+.createrepocache/
+send*

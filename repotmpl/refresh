@@ -1,0 +1,3 @@
+cp /work/GIT/theme/repoview/*.* repotmpl/
+cp /work/GIT/theme/repoview/layout/*.* repotmpl/layout/
+cp /work/GIT/theme/repoview/layout/images/*.* repotmpl/layout/images/

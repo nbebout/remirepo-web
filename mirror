@@ -1,0 +1,95 @@
+#!/bin/bash
+
+cd $(dirname $0)
+
+case "$1" in
+
+help) echo -e "\nOptions: save resto diff add on off status\n"
+	;;
+
+save) echo -n "Saving mirror definition..."
+	tar cf - */{?,??}/*/mirror | tar xvf - -C save/
+	echo " Done"
+	;;
+
+resto) echo -n "Restoring mirror definition..."
+	tar cf - -C save */{?,??}/*/mirror | tar xvf -
+	echo " Done"
+	;;
+
+diff) echo "Pending changes in mirror definition:"
+	n=0
+	for fic in */{?,??}/*/mirror
+	do
+		if ! diff -q save/$fic $fic >/dev/null; then
+			echo "=== $fic"
+			colordiff -a save/$fic $fic
+			n=$(expr $n + 1)
+		fi
+	done
+	[ $n -eq 0 ] && echo "None"
+	;;
+
+add) if [ -z "$2" ]; then
+		echo "Missing mirror path"
+		exit 1
+	fi
+	for fic in fedora/??/*/mirror enterprise/{5,6,7}/*/mirror
+	do
+		n=0
+		if grep -q "/archives/" $fic
+		then
+			continue
+		fi
+		if ! grep -q "^$2" $fic
+		then
+			grep remirepo.net $fic | \
+			sed -e "s|http://rpms.remirepo.net|$2|" >>$fic
+			if grep $2 $fic
+			then
+				echo "Add in $fic"
+				n=$(expr $n + 1)
+			fi
+		fi
+	done
+	[ $n -eq 0 ] && echo "None"
+	;;
+
+on) if [ -z "$2" ]; then
+		echo "Missing mirror path"
+		exit 1
+	fi
+	for fic in */{?,??}/*/mirror
+	do
+		if grep -q "^## .*$2" $fic
+		then
+			echo "Fix in $fic"
+			sed -e "\@$2@s/^## //" -i $fic
+		fi
+	done
+	;;
+
+off) if [ -z "$2" ]; then
+		echo "Missing mirror path"
+		exit 1
+	fi
+	for fic in */{?,??}/*/mirror
+	do
+		if grep -q "^http.*$2" $fic
+		then
+			echo "Fix in $fic"
+			sed -e "\@$2@s/^/## /" -i $fic
+		fi
+	done
+	;;
+
+status) if [ -z "$2" ]; then
+		echo "Missing mirror path"
+		exit 1
+	fi
+	grep -- "$2" */{?,??}/*/mirror
+	;;
+	*) 	echo -e "\nMirror list:\n"
+	cat enterprise/7/remi/mirror
+	;;
+esac

@@ -1,0 +1,55 @@
+#!/bin/bash
+
+function mashit()
+{
+echo "Mashing $2 $3"
+
+mash=$1
+where=$2/remi/$3
+options="-type f -print"
+refdate=$2/safe/.mashdate.$3
+if [ -f $refdate ]
+then	options="-newer $refdate $options"
+else    touch -d 19950101 $refdate
+fi
+
+[ $debug = 1 ] && echo "   find $where -name \*rpm $options"
+
+find $where -name \*rpm $options | while read rpm
+do
+  name=$(rpm -qp --qf "%{NAME}" $rpm)
+  copy=${rpm/remi/safe}
+  if [ -f $copy ]
+  then
+    if [ $debug = 1 ]
+    then	echo "  $rpm (ok)"
+    fi
+  elif grep -q "^${name}\$" $mash
+  then
+    ln $rpm $copy && echo "+ $rpm"
+  else
+    if [ $debug = 1 ]
+    then	echo "  $rpm (ignored)"
+    fi
+  fi
+  [ $rpm -nt $refdate ] && touch -r $rpm $refdate
+done
+}
+
+debug=0
+for opt in $*
+do
+	case "$opt" in
+		-d)	debug=1
+			;;
+		*)	echo "unkown option $opt"
+			exit 1
+			;;
+	esac
+done
+export debug
+
+mashit mashinfo.el7 enterprise/7 x86_64
+mashit mashinfo.el6 enterprise/6 i386
+mashit mashinfo.el6 enterprise/6 x86_64
+echo Done
