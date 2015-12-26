@@ -155,6 +155,7 @@ php70-php-pecl-imagick-devel
 php70-php-pecl-json-post
 php70-php-pecl-libsodium
 php70-php-pecl-lzf
+php70-php-pecl-mailparse
 php70-php-pecl-memcached
 php70-php-pecl-mongodb
 php70-php-pecl-msgpack
