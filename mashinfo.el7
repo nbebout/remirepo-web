@@ -16,6 +16,7 @@ php-pecl-dio
 php-pecl-dom-varimport
 php-pecl-doublemetaphone
 php-pecl-eio
+php-pecl-env
 php-pecl-ev
 php-pecl-expect
 php-pecl-gender
@@ -143,6 +144,7 @@ php70-php-pecl-apfd
 php70-php-pecl-apm
 php70-php-pecl-crypto
 php70-php-pecl-eio
+php70-php-pecl-env
 php70-php-pecl-ev
 php70-php-pecl-gender
 php70-php-pecl-geoip
@@ -263,6 +265,7 @@ php56-php-pecl-dom-varimport
 php56-php-pecl-dom-varimport-devel
 php56-php-pecl-doublemetaphone
 php56-php-pecl-eio
+php56-php-pecl-env
 php56-php-pecl-ev
 php56-php-pecl-event
 php56-php-pecl-expect
