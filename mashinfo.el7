@@ -24,6 +24,7 @@ php-pecl-geospatial
 php-pecl-gnupg
 php-pecl-graphdat
 php-pecl-haru
+php-pecl-hdr-histogram
 php-pecl-hidef
 php-pecl-hprose
 php-pecl-hrtime
@@ -87,6 +88,9 @@ php-phalcon
 php-phalcon2
 php-suhosin
 cmph
+hdrhistogram
+hdrhistogram-devel
+hdrhistogram-libs
 libbson
 libbson-devel
 libcouchbase
@@ -150,6 +154,7 @@ php70-php-pecl-gender
 php70-php-pecl-geoip
 php70-php-pecl-geospatial
 php70-php-pecl-gmagick
+php70-php-pecl-hdr-histogram
 php70-php-pecl-http
 php70-php-pecl-hprose
 php70-php-pecl-hrtime
@@ -278,6 +283,7 @@ php56-php-pecl-gmagick
 php56-php-pecl-gnupg
 php56-php-pecl-graphdat
 php56-php-pecl-haru
+php56-php-pecl-hdr-histogram
 php56-php-pecl-hidef
 php56-php-pecl-hprose
 php56-php-pecl-hrtime
