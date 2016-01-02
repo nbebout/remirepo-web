@@ -85,6 +85,7 @@ php70-php-pecl-rrd
 php70-php-pecl-seaslog
 php70-php-pecl-selinux
 php70-php-pecl-ssdeep
+php70-php-pecl-stats
 php70-php-pecl-swoole
 php70-php-pecl-taint
 php70-php-pecl-termbox
