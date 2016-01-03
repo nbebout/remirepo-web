@@ -75,6 +75,7 @@ php70-php-pecl-mongodb
 php70-php-pecl-msgpack
 php70-php-pecl-msgpack-devel
 php70-php-pecl-mysql
+php70-php-pecl-oauth
 php70-php-pecl-pcs
 php70-php-pecl-pcs-devel
 php70-php-pecl-propro
