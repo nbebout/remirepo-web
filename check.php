@@ -67,9 +67,10 @@ $mirrors = array(
 	'http://fr2.rpmfind.net/linux/remi/',
 	'http://mirror.awanti.com/remi/',
 	'http://mirrors.netix.net/remi/',
-	'http://mirror.h1host.ru/remi/',
+	#'http://mirror.h1host.ru/remi/',
 	'http://remi.mirrors.cu.be/',
 	'http://mirror.innosol.asia/remi/',
+	'http://mirror.neolabs.kz/remi/',
 );
 $deprecated = array(
 	'http://remi.mirror.net.in/',
