@@ -119,9 +119,17 @@ if ($php && $os && $type && !$err) {
     } else {
         $yum = 'yum';
         printf("<li>Command to install the EPEL repository configuration package:");
-        printf("<pre>    $yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-%d.noarch.rpm</pre>", $ver);
-        printf("</li><br /><li>Command to install the Remi repository configuration package:");
-        printf("<pre>    $yum install http://rpms.remirepo.net/enterprise/remi-release-%d.rpm</pre>", $ver);
+        if ($ver < 6) {
+            printf("<pre>    wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-%d.noarch.rpm\n", $ver);
+            printf("    $yum install epel-release-latest-%d.noarch.rpm\n", $ver);
+            printf("</li><br /><li>Command to install the Remi repository configuration package:");
+            printf("<pre>    wget http://rpms.remirepo.net/enterprise/remi-release-%d.rpm\n", $ver);
+            printf("    $yum install http://rpms.remirepo.net/enterprise/remi-release-%d.rpm</pre>", $ver);
+        } else {
+            printf("<pre>    $yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-%d.noarch.rpm</pre>", $ver);
+            printf("</li><br /><li>Command to install the Remi repository configuration package:");
+            printf("<pre>    $yum install http://rpms.remirepo.net/enterprise/remi-release-%d.rpm</pre>", $ver);
+        }
         printf("</li><br />");
         if ($dist == 'RHEL') {
             printf("<li>On <b>RHEL</b> you (probably) need to enable the <b>optional channel</b> for some dependencies.</li><br />");
@@ -151,11 +159,15 @@ if ($php && $os && $type && !$err) {
 
         } else {
             printf("<li>PHP version <b>%s</b> packages are available for <b>%s</b> in <b>%s</b> repository</li><br />", $php, $os, $phpvers[$php]);
-            printf("<li>Command to enable the repository:");
-            if ($dist == 'Fedora') {
-                    printf("<pre>    dnf config-manager --enable %s</pre>", $phpvers[$php]);
+            if ($ver < 6) {
+                printf("<li>You have to enable the repository by setting <b>enabled=1</b> in the [%s] section of /etc/yum.repos.d/remi.repo", $phpvers[$php]);
             } else {
-                    printf("<pre>    yum-config-manager --enable %s</pre>", $phpvers[$php]);
+                printf("<li>Command to enable the repository:");
+                if ($dist == 'Fedora') {
+                        printf("<pre>    dnf config-manager --enable %s</pre>", $phpvers[$php]);
+                } else {
+                        printf("<pre>    yum-config-manager --enable %s</pre>", $phpvers[$php]);
+                }
             }
             printf("</li><br />");
             printf("<li>Command to upgrade (the repository only provides PHP):");
