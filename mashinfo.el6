@@ -10,6 +10,8 @@ libevent-last
 libicu-last
 libmemcached-last-libs
 librabbitmq-last
+librdkafka
+librdkafka-devel
 libsodium-last
 libzip-last
 mongo-c-driver

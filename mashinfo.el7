@@ -98,6 +98,7 @@ libcouchbase-devel
 libcouchbase-tools
 libharu
 librdkafka
+librdkafka-devel
 pdflib-lite
 mongo-c-driver
 mongo-c-driver-devel
