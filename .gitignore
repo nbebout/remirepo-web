@@ -4,6 +4,7 @@ work/
 *.tgz
 fedora/
 enterprise/
+wizard/counter.txt
 SRPMS/
 .Trash-100/
 .createrepocache/
