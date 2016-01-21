@@ -157,6 +157,7 @@ php70-php-pecl-geospatial
 php70-php-pecl-gmagick
 php70-php-pecl-hdr-histogram
 php70-php-pecl-http
+php70-php-pecl-http-devel
 php70-php-pecl-hprose
 php70-php-pecl-hrtime
 php70-php-pecl-imagick
@@ -167,6 +168,7 @@ php70-php-pecl-lzf
 php70-php-pecl-mailparse
 php70-php-pecl-memcache
 php70-php-pecl-memcached
+php70-php-pecl-mogilefs
 php70-php-pecl-mongodb
 php70-php-pecl-msgpack
 php70-php-pecl-msgpack-devel
