@@ -69,6 +69,7 @@ php70-php-pecl-hprose
 php70-php-pecl-hrtime
 php70-php-pecl-imagick
 php70-php-pecl-imagick-devel
+php70-php-pecl-inotify
 php70-php-pecl-json-post
 php70-php-pecl-libsodium
 php70-php-pecl-lzf
