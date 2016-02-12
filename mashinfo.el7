@@ -147,6 +147,7 @@ php70-php-pecl-apcu-devel
 php70-php-pecl-amqp
 php70-php-pecl-apfd
 php70-php-pecl-apm
+php70-php-pecl-cassandra
 php70-php-pecl-crypto
 php70-php-pecl-eio
 php70-php-pecl-env
