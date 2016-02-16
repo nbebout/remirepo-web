@@ -67,10 +67,11 @@ $mirrors = array(
 	'http://fr2.rpmfind.net/linux/remi/',
 	'http://mirror.awanti.com/remi/',
 	'http://mirrors.netix.net/remi/',
-	#'http://mirror.h1host.ru/remi/',
+	'http://mirror.h1host.ru/remi/',
 	'http://remi.mirrors.cu.be/',
 	'http://mirror.innosol.asia/remi/',
 	'http://mirror.neolabs.kz/remi/',
+	'http://mirror.lablus.com/remi/',
 );
 $deprecated = array(
 	'http://remi.mirror.net.in/',
@@ -83,7 +84,7 @@ $deprecated = array(
 	'http://mirror.pw/remi/',
 );
 function getRepoTime($uri) {
-	$xml = simplexml_load_file($uri.'/repodata/repomd.xml');
+	$xml = @simplexml_load_file($uri.'/repodata/repomd.xml');
 	if ($xml && $xml->revision) {
 		return intval($xml->revision);
 	}
@@ -158,7 +159,7 @@ if ($ref) {
 	}
 	if ($cli) {
 		while (count($pids)) {
-			//printf("Wait %d\r", count($pids));
+			printf("Wait %d\r", count($pids));
 			$pid = pcntl_wait($status);
 			if ($pid<0) {
 				die("Cound not wait\n");

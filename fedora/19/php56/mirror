@@ -1,7 +1,7 @@
-http://mirror5.layerjet.com/remi/fedora/$releasever/php56/$basearch/
+## http://mirror5.layerjet.com/remi/fedora/$releasever/php56/$basearch/
 http://remi.schlundtech.de/fedora/$releasever/php56/$basearch/
 http://mirrors.mediatemple.net/remi/fedora/$releasever/php56/$basearch/
-http://remirpm.mirror.gymkl.ch/fedora/$releasever/php56/$basearch/
+## http://remirpm.mirror.gymkl.ch/fedora/$releasever/php56/$basearch/
 http://fr2.rpmfind.net/linux/remi/fedora/$releasever/php56/$basearch/
 http://remi.mirrors.arminco.com/fedora/$releasever/php56/$basearch/
 ## http://remi-mirror.dedipower.com/fedora/$releasever/php56/$basearch/
