@@ -59,6 +59,7 @@ php70-php-pecl-crypto
 php70-php-pecl-eio
 php70-php-pecl-env
 php70-php-pecl-ev
+php70-php-pecl-event
 php70-php-pecl-gender
 php70-php-pecl-selinux
 php70-php-pecl-geoip
