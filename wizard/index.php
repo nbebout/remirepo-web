@@ -33,6 +33,12 @@ $phpvers = [
     '5.5' => 'remi-php55',
     '5.4' => 'remi',
 ];
+$phpname = [
+    '7.0' => '7.0 (active support until Dec 2017)',
+    '5.6' => '5.6 (active support until Dec 2016)',
+    '5.5' => '5.5 (security support until Jul 2016)',
+    '5.4' => '5.4 (no support since Sept 2015)',
+];
 $php  = (isset($_POST['php'])  && isset($phpvers[$_POST['php']]) ? $_POST['php'] : false);
 $os   = (isset($_POST['os'])   && isset($osvers[$_POST['os']])   ? $_POST['os'] : false);
 $type = (isset($_POST['type']) && isset($types[$_POST['type']])  ? $_POST['type'] : false);
@@ -74,7 +80,7 @@ $type = (isset($_POST['type']) && isset($types[$_POST['type']])  ? $_POST['type'
                                         <select name='php' onChange='submit()'>
                                         <option value=''>--</option>
 <?php
-                                        foreach($phpvers as $phpver => $repo) printf("<option value='%s' %s>%s</option>", $phpver, ($phpver===$php ? 'selected' : ''), $phpver);
+                                        foreach($phpvers as $phpver => $repo) printf("<option value='%s' %s>%s</option>", $phpver, ($phpver===$php ? 'selected' : ''), $phpname[$phpver]);
 ?>
                                         </select>
                                     </p></li>
