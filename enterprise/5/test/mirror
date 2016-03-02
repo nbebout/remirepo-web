@@ -1,5 +1,5 @@
 ## http://remirpm.mirror.gymkl.ch/enterprise/$releasever/test/$basearch/
-http://mirror.awanti.com/remi/enterprise/$releasever/test/$basearch/
+## http://mirror.awanti.com/remi/enterprise/$releasever/test/$basearch/
 ## http://mirror5.layerjet.com/remi/enterprise/$releasever/test/$basearch/
 http://fr2.rpmfind.net/linux/remi/enterprise/$releasever/test/$basearch/
 http://rpms.remirepo.net/enterprise/$releasever/test/$basearch/
