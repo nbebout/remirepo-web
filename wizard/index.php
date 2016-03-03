@@ -34,10 +34,10 @@ $phpvers = [
     '5.4' => 'remi',
 ];
 $phpname = [
-    '7.0' => '7.0 (active support until Dec 2017)',
-    '5.6' => '5.6 (active support until Dec 2016)',
-    '5.5' => '5.5 (security support until Jul 2016)',
-    '5.4' => '5.4 (no support since Sept 2015)',
+    '7.0' => '7.0.4 (active support until Dec 2017)',
+    '5.6' => '5.6.19 (active support until Dec 2016)',
+    '5.5' => '5.5.33 (security support until Jul 2016)',
+    '5.4' => '5.4.45 (no upstream support since Sept 2015)',
 ];
 $php  = (isset($_POST['php'])  && isset($phpvers[$_POST['php']]) ? $_POST['php'] : false);
 $os   = (isset($_POST['os'])   && isset($osvers[$_POST['os']])   ? $_POST['os'] : false);
