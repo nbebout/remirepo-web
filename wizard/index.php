@@ -137,6 +137,9 @@ if ($php && $os && $type && !$err) {
             printf("<pre>    $yum install http://rpms.remirepo.net/enterprise/remi-release-%d.rpm</pre>", $ver);
         }
         printf("</li><br />");
+        printf("<li>Command to install the yum-utils package (for the yum-config-manager command):");
+        printf("<pre>    $yum install yum-utils</pre>");
+        printf("</li><br />");
         if ($dist == 'RHEL') {
             printf("<li>On <b>RHEL</b> you (probably) need to enable the <b>optional channel</b> for some dependencies.</li><br />");
             printf("</li><li>Command to enable:");
