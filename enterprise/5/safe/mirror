@@ -1,7 +1,7 @@
 http://remi.schlundtech.de/enterprise/$releasever/safe/$basearch/
-## http://mirror5.layerjet.com/remi/enterprise/$releasever/safe/$basearch/
+http://mirror5.layerjet.com/remi/enterprise/$releasever/safe/$basearch/
 ## http://remi-mirror.dedipower.com/enterprise/$releasever/safe/$basearch/
-## http://mirror.awanti.com/remi/enterprise/$releasever/safe/$basearch/
+http://mirror.awanti.com/remi/enterprise/$releasever/safe/$basearch/
 http://mirrors.mediatemple.net/remi/enterprise/$releasever/safe/$basearch/
 http://fr2.rpmfind.net/linux/remi/enterprise/$releasever/safe/$basearch/
 ## http://remirpm.mirror.gymkl.ch/enterprise/$releasever/safe/$basearch/
