@@ -19,6 +19,7 @@ $osvers = [
     'CentOS 7'  => '5.4',
     'CentOS 6'  => '5.3',
     'CentOS 5'  => '5.1',
+    'Fedora 24' => '5.6',
     'Fedora 23' => '5.6',
     'Fedora 22' => '5.6',
     'Fedora 21' => '5.6',
