@@ -174,7 +174,7 @@ if ($php && $os && $type && !$err) {
             } else {
                 printf("<li>Command to enable the repository:");
                 if ($dist == 'Fedora') {
-                        printf("<pre>    dnf config-manager --enable %s</pre>", $phpvers[$php]);
+                        printf("<pre>    dnf config-manager --set-enabled %s</pre>", $phpvers[$php]);
                 } else {
                         printf("<pre>    yum-config-manager --enable %s</pre>", $phpvers[$php]);
                 }
