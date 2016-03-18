@@ -18,6 +18,8 @@ mongo-c-driver
 mongo-c-driver-devel
 cassandra-cpp-driver
 cassandra-cpp-driver-devel
+# For amazon users
+environment-modules
 php70
 php70-build
 php70-php
