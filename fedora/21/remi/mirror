@@ -1,14 +1,10 @@
 http://remi.schlundtech.de/fedora/$releasever/remi/$basearch/
 http://mirrors.mediatemple.net/remi/fedora/$releasever/remi/$basearch/
-## http://remirpm.mirror.gymkl.ch/fedora/$releasever/remi/$basearch/
-## http://remi-mirror.dedipower.com/fedora/$releasever/remi/$basearch/
 http://fr2.rpmfind.net/linux/remi/fedora/$releasever/remi/$basearch/
 http://mirror5.layerjet.com/remi/fedora/$releasever/remi/$basearch/
 http://remi.mirrors.arminco.com/fedora/$releasever/remi/$basearch/
 http://rpms.remirepo.net/fedora/$releasever/remi/$basearch/
 ## http://mirror.smartmedia.net.id/remi/fedora/$releasever/remi/$basearch/
-## http://remi.mirrors.hostinginnederland.nl/fedora/$releasever/remi/$basearch/
-## http://mirrors.hustunique.com/remi/fedora/$releasever/remi/$basearch/
 ## http://mirror.1000mbps.com/remi/fedora/$releasever/remi/$basearch/
 http://remi.kazukioishi.net/fedora/$releasever/remi/$basearch/
 http://remi.xpg.com.br/fedora/$releasever/remi/$basearch/
@@ -19,7 +15,6 @@ http://remi.conetix.com.au/fedora/$releasever/remi/$basearch/
 ## http://remi.mirror.net.in/fedora/$releasever/remi/$basearch/
 http://mirrors.neterra.net/fedora/$releasever/remi/$basearch/
 http://mirrors.thzhost.com/remi/fedora/$releasever/remi/$basearch/
-## http://mirror.pw/remi/fedora/$releasever/remi/$basearch/
 http://mirror.h1host.ru/remi/fedora/$releasever/remi/$basearch/
 http://mirror.uta.edu.ec/remi/fedora/$releasever/remi/$basearch/
 http://mirrors.netix.net/remi/fedora/$releasever/remi/$basearch/

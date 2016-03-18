@@ -83,6 +83,20 @@ off) if [ -z "$2" ]; then
 	done
 	;;
 
+del) if [ -z "$2" ]; then
+		echo "Missing mirror path"
+		exit 1
+	fi
+	for fic in */{?,??}/*/mirror
+	do
+		if grep -q "$2" $fic
+		then
+			echo "Removed from $fic"
+			sed -e "\@$2@d" -i $fic
+		fi
+	done
+	;;
+
 status) if [ -z "$2" ]; then
 		echo "Missing mirror path"
 		exit 1
