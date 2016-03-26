@@ -86,6 +86,7 @@ php-pecl-yp
 php-phalcon
 php-phalcon2
 php-suhosin
+php-tarantool
 cmph
 hdrhistogram
 hdrhistogram-devel
@@ -422,6 +423,7 @@ php56-php-smbclient
 php56-php-snmp
 php56-php-soap
 php56-php-suhosin
+php56-php-tarantool
 php56-php-tidy
 php56-php-twig
 php56-php-xcache
