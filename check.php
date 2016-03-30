@@ -52,7 +52,6 @@ $mirrors = array(
 	'http://remi.conetix.com.au/',
 	'http://mirrors.neterra.net/remi/',
 	'http://remi.xpg.com.br/',
-	'http://remirpm.mirror.gymkl.ch/',
 	'http://mirror5.layerjet.com/remi/',
 	'http://remi.schlundtech.de/',
 	'http://mirror.cedia.org.ec/remi/',
@@ -75,6 +74,7 @@ $mirrors = array(
 	'http://mirror.veriteknik.net.tr/remi/',
 );
 $deprecated = array(
+	'http://remirpm.mirror.gymkl.ch/',
 	'http://remi.mirror.net.in/',
 	'http://remi-mirror.dedipower.com/',
 	'http://mirror.beyondhosting.net/Remi/',
