@@ -20,5 +20,5 @@ http://mirror.uta.edu.ec/remi/fedora/$releasever/test/$basearch/
 http://mirrors.netix.net/remi/fedora/$releasever/test/$basearch/
 http://remi.mirrors.cu.be/fedora/$releasever/test/$basearch/
 http://mirror.innosol.asia/remi/fedora/$releasever/test/$basearch/
-## http://mirror.neolabs.kz/remi/fedora/$releasever/test/$basearch/
+http://mirror.neolabs.kz/remi/fedora/$releasever/test/$basearch/
 http://mirror.veriteknik.net.tr/remi/fedora/$releasever/test/$basearch/
