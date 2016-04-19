@@ -43,6 +43,7 @@ php-pecl-mysqlnd-ms-devel
 php-pecl-mysqlnd-qc
 php-pecl-mysqlnd-qc-devel
 php-pecl-newt
+php-pecl-oci8
 php-pecl-pcs
 php-pecl-pcs-devel
 php-pecl-pcsc
@@ -136,6 +137,7 @@ php70-php-litespeed
 php70-php-mbstring
 php70-php-mcrypt
 php70-php-mysqlnd
+php70-php-oci8
 php70-php-odbc
 php70-php-opcache
 php70-php-pdo
@@ -264,6 +266,7 @@ php56-php-mbstring
 php56-php-mcrypt
 php56-php-mssql
 php56-php-mysqlnd
+php56-php-oci8
 php56-php-odbc
 php56-php-opcache
 php56-php-pdo
