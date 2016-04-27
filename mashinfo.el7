@@ -133,6 +133,8 @@ php70-php-interbase
 php70-php-intl
 php70-php-json
 php70-php-ldap
+php70-php-libvirt
+php70-php-libvirt-doc
 php70-php-litespeed
 php70-php-mbstring
 php70-php-mcrypt
@@ -258,7 +260,6 @@ php56-php-interbase
 php56-php-intl
 php56-php-ioncube-loader
 php56-php-ldap
-php56-php-libsmbclient
 php56-php-libvirt
 php56-php-libvirt-doc
 php56-php-litespeed
