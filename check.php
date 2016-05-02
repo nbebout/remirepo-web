@@ -58,7 +58,6 @@ $mirrors = array(
 	'http://mirror.uta.edu.ec/remi/',
 	'http://iut-info.univ-reims.fr/remirpms/',
 	'http://mirror.smartmedia.net.id/remi/',
-	'http://remi.kazukioishi.net/',
 	'http://ftp.arnes.si/mirrors/remi/',
 	'http://mirrors.thzhost.com/remi/',
 	'http://remi.check-update.co.uk/',
@@ -74,6 +73,7 @@ $mirrors = array(
 	'http://mirror.veriteknik.net.tr/remi/',
 );
 $deprecated = array(
+	'http://remi.kazukioishi.net/',
 	'http://remirpm.mirror.gymkl.ch/',
 	'http://remi.mirror.net.in/',
 	'http://remi-mirror.dedipower.com/',
