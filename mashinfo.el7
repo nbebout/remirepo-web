@@ -105,6 +105,8 @@ termbox
 remi-release
 gd-last
 ImageMagick-last-libs
+ImageMagick-last-c++
+ImageMagick-last-djvu
 librabbitmq-last
 libsodium-last
 libzip-last

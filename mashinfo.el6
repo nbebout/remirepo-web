@@ -1,6 +1,8 @@
 remi-release
 gd-last
 ImageMagick-last-libs
+ImageMagick-last-c++
+ImageMagick-last-djvu
 libbson
 libbson-devel
 libcouchbase
