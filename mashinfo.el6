@@ -294,6 +294,7 @@ php56-php-pecl-ssh2
 php56-php-pecl-stats
 php56-php-pecl-stomp
 php56-php-pecl-strict
+php56-php-pecl-svn
 php56-php-pecl-swoole
 php56-php-pecl-sync
 php56-php-pecl-termbox

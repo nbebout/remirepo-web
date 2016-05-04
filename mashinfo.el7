@@ -64,6 +64,7 @@ php-pecl-stats
 php-pecl-stomp
 php-pecl-strict
 php-pecl-sundown
+php-pecl-svn
 php-pecl-swoole
 php-pecl-sync
 php-pecl-termbox
@@ -391,6 +392,7 @@ php56-php-pecl-ssh2
 php56-php-pecl-stats
 php56-php-pecl-stomp
 php56-php-pecl-strict
+php56-php-pecl-svn
 php56-php-pecl-swoole
 php56-php-pecl-sync
 php56-php-pecl-termbox
