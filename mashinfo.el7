@@ -108,6 +108,9 @@ gd-last
 ImageMagick-last-libs
 ImageMagick-last-c++
 ImageMagick-last-djvu
+ImageMagick7-libs
+ImageMagick7-c++
+ImageMagick7-djvu
 librabbitmq-last
 libsodium-last
 libzip-last
