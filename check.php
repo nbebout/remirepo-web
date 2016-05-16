@@ -71,6 +71,7 @@ $mirrors = array(
 	'http://mirror.neolabs.kz/remi/',
 	'http://mirror.lablus.com/remi/',
 	'http://mirror.veriteknik.net.tr/remi/',
+	'https://remi.mirror.ate.info/',
 );
 $deprecated = array(
 	'http://remi.kazukioishi.net/',
