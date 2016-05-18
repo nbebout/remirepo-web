@@ -100,8 +100,6 @@ libharu
 librdkafka
 librdkafka-devel
 pdflib-lite
-mongo-c-driver
-mongo-c-driver-devel
 termbox
 remi-release
 gd-last
