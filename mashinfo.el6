@@ -111,6 +111,7 @@ php70-php-pecl-redis
 php70-php-pecl-rrd
 php70-php-pecl-seaslog
 php70-php-pecl-selinux
+php70-php-pecl-scrypt
 php70-php-pecl-solr2
 php70-php-pecl-ssdeep
 php70-php-pecl-stats
