@@ -115,6 +115,7 @@ php70-php-pecl-scrypt
 php70-php-pecl-solr2
 php70-php-pecl-ssdeep
 php70-php-pecl-stats
+php70-php-pecl-stomp
 php70-php-pecl-swoole
 php70-php-pecl-taint
 php70-php-pecl-termbox
