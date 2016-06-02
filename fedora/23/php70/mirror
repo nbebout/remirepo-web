@@ -22,3 +22,6 @@ http://mirror.innosol.asia/remi/fedora/$releasever/php70/$basearch/
 http://mirror.neolabs.kz/remi/fedora/$releasever/php70/$basearch/
 http://mirror.veriteknik.net.tr/remi/fedora/$releasever/php70/$basearch/
 http://remi.mirror.ate.info/fedora/$releasever/php70/$basearch/
+https://mirrors.tuna.tsinghua.edu.cn/remi/fedora/$releasever/php70/$basearch/
+https://nl.mirror.babylon.network/remi/fedora/$releasever/php70/$basearch/
+https://fr.mirror.babylon.network/remi/fedora/$releasever/php70/$basearch/
