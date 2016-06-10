@@ -140,11 +140,11 @@ if ($ref) {
  				$pids = array();
 				$loc = getRepoTime($mirror.$full);
 				if ($ref == $loc) {
-					printf("%50.50s: Ok\n", $mirror);
+					printf("%50.50s : Ok\n", $mirror);
 				} else if ($loc) {
-					printf("%50.50s: %s\n", $mirror, date('r', $loc));
+					printf("%50.50s : %s\n", $mirror, date('r', $loc));
 				} else {
-					printf("%50.50s: N/A\n", $mirror);
+					printf("%50.50s : N/A\n", $mirror);
 				}
 				break;
 			}
