@@ -29,12 +29,14 @@ $types = [
     'scl'  => 'Multiple versions', 
 ];
 $phpvers = [
+    '7.1' => false,
     '7.0' => 'remi-php70',
     '5.6' => 'remi-php56',
     '5.5' => 'remi-php55',
     '5.4' => 'remi',
 ];
 $phpname = [
+    '7.1' => '7.1.0-dev (for testing, not ready for production)',
     '7.0' => '7.0.7 (active support until Dec 2017)',
     '5.6' => '5.6.22 (active support until Dec 2016)',
     '5.5' => '5.5.36 (security support until Jul 2016)',
@@ -155,7 +157,10 @@ if ($php && $os && $type && !$err) {
     if ($type == 'base') {
         printf("<li>You want a <b>single version </b> which means replacing base packages from the distribution</li><br />");
 
-        if (version_compare($php, $osvers[$os], '<')) {
+        if (!$phpvers[$php]) {
+            printf("<li>Sorry, but PHP version <b>%s</b> are not yet available for <b>%s</b> as single version, try multiple versions.</li><br />", $php, $os);
+
+        } else if (version_compare($php, $osvers[$os], '<')) {
             printf("<li>Sorry, but PHP version older than <b>%s</b> are not available for <b>%s</b>, try multiple versions.</li><br />", $osvers[$os], $os);
 
         } else if (version_compare($php, $osvers[$os], '=')) {
