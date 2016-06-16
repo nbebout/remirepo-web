@@ -78,6 +78,7 @@ php70-php-pecl-selinux
 php70-php-pecl-geoip
 php70-php-pecl-geospatial
 php70-php-pecl-gmagick
+php70-php-pecl-gnupg
 php70-php-pecl-http
 php70-php-pecl-http-devel
 php70-php-pecl-hprose
@@ -205,6 +206,7 @@ php71-php-pecl-selinux
 php71-php-pecl-geoip
 php71-php-pecl-geospatial
 php71-php-pecl-gmagick
+php71-php-pecl-gnupg
 php71-php-pecl-http
 php71-php-pecl-http-devel
 php71-php-pecl-hprose
