@@ -181,6 +181,8 @@ php70-php-pecl-imagick
 php70-php-pecl-imagick-devel
 php70-php-pecl-inotify
 php70-php-pecl-json-post
+php70-php-pecl-krb5
+php70-php-pecl-krb5-devel
 php70-php-pecl-libsodium
 php70-php-pecl-lua
 php70-php-pecl-lzf
@@ -311,6 +313,8 @@ php71-php-pecl-imagick
 php71-php-pecl-imagick-devel
 php71-php-pecl-inotify
 php71-php-pecl-json-post
+php71-php-pecl-krb5
+php71-php-pecl-krb5-devel
 php71-php-pecl-libsodium
 php71-php-pecl-lua
 php71-php-pecl-lzf
