@@ -36,7 +36,6 @@ php-pecl-jsond-devel
 php-pecl-leveldb
 php-pecl-lua
 php-pecl-mogilefs
-php-pecl-mongodb
 php-pecl-mosquitto
 php-pecl-mysqlnd-ms
 php-pecl-mysqlnd-ms-devel
