@@ -29,7 +29,7 @@ $types = [
     'scl'  => 'Multiple versions', 
 ];
 $phpvers = [
-    '7.1' => false,
+    '7.1' => 'remi-php71',
     '7.0' => 'remi-php70',
     '5.6' => 'remi-php56',
     '5.5' => 'remi-php55',
