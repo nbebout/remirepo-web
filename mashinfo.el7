@@ -159,6 +159,7 @@ php70-php-pecl-bitset
 php70-php-pecl-cassandra
 php70-php-pecl-couchbase2
 php70-php-pecl-crypto
+php70-php-pecl-ds
 php70-php-pecl-eio
 php70-php-pecl-env
 php70-php-pecl-ev
@@ -291,6 +292,7 @@ php71-php-pecl-bitset
 php71-php-pecl-cassandra
 php71-php-pecl-couchbase2
 php71-php-pecl-crypto
+php71-php-pecl-ds
 php71-php-pecl-eio
 php71-php-pecl-env
 php71-php-pecl-ev
