@@ -36,10 +36,10 @@ $phpvers = [
     '5.4' => 'remi',
 ];
 $phpname = [
-    '7.1' => '7.1.0beta1 (for testing, not ready for production)',
+    '7.1' => '7.1.0beta2 (for testing, not ready for production)',
     '7.0' => '7.0.9 (active support until Dec 2017)',
     '5.6' => '5.6.24 (active support until Dec 2016)',
-    '5.5' => '5.5.38 (last security release)',
+    '5.5' => '5.5.38 (no upstream support since July 2016)',
     '5.4' => '5.4.45 (no upstream support since Sept 2015)',
 ];
 $php  = (isset($_POST['php'])  && isset($phpvers[$_POST['php']]) ? $_POST['php'] : false);
