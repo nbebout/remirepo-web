@@ -22,6 +22,8 @@ libsodium-last
 libzip-last
 mongo-c-driver
 mongo-c-driver-devel
+termbox
+termbox-devel
 cassandra-cpp-driver
 cassandra-cpp-driver-devel
 # For amazon users

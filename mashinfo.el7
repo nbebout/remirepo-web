@@ -100,6 +100,7 @@ librdkafka
 librdkafka-devel
 pdflib-lite
 termbox
+termbox-devel
 remi-release
 gd-last
 gnupg1
