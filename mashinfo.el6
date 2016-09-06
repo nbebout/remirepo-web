@@ -152,6 +152,7 @@ php70-php-process
 php70-php-pspell
 php70-php-recode
 php70-php-smbclient
+php70-php-snappy
 php70-php-snmp
 php70-php-suhosin
 php70-php-soap
@@ -286,6 +287,7 @@ php71-php-pspell
 php71-php-recode
 php71-php-smbclient
 php71-php-snmp
+php71-php-snappy
 php71-php-suhosin
 php71-php-soap
 php71-php-tidy
@@ -483,6 +485,7 @@ php56-php-pspell
 php56-php-recode
 php56-php-smbclient
 php56-php-snmp
+php56-php-snappy
 php56-php-soap
 php56-php-suhosin
 php56-php-tarantool
