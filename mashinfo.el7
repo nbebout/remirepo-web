@@ -209,6 +209,7 @@ php70-php-pecl-propro-devel
 php70-php-pecl-radius
 php70-php-pecl-raphf
 php70-php-pecl-raphf-devel
+php70-php-pecl-rdkafka
 php70-php-pecl-redis
 php70-php-pecl-rrd
 php70-php-pecl-scrypt
@@ -347,6 +348,7 @@ php71-php-pecl-propro-devel
 php71-php-pecl-radius
 php71-php-pecl-raphf
 php71-php-pecl-raphf-devel
+php71-php-pecl-rdkafka
 php71-php-pecl-redis
 php71-php-pecl-rrd
 php71-php-pecl-scrypt
