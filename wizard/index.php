@@ -8,8 +8,10 @@
 		<link rel="shortcut icon" href="/favicon.ico" />
 </head>
 <?php
-define('FC_EOL', 21);
+define('FC_EOL', 22);
+define('FC_DEV', 25);
 define('EL_EOL', 4);
+define('EL_DEV', 8);
 define('COUNTER', __DIR__ . "/counter.txt");
 
 $osvers = [
@@ -19,6 +21,7 @@ $osvers = [
     'CentOS 7'  => '5.4',
     'CentOS 6'  => '5.3',
     'CentOS 5'  => '5.1',
+    'Fedora 25' => '7.0',
     'Fedora 24' => '5.6',
     'Fedora 23' => '5.6',
     'Fedora 22' => '5.6',
@@ -108,6 +111,9 @@ if ($os) {
     list($dist, $ver) = explode(' ', $os, 2);    
     if (($dist == 'Fedora' && $ver<=FC_EOL) || ($dist != 'Fedora' && $ver<=EL_EOL)) {
         printf("<li><b>%s</b> have reached its <b>end of life</b>, upgrade is strongly recommended.</li><br />", $os);
+    }
+    if (($dist == 'Fedora' && $ver>=FC_DEV) || ($dist != 'Fedora' && $ver>=EL_DEV)) {
+        printf("<li><b>%s</b> is a development version, not ready for production.</li><br />", $os);
     }
 }
 if ($php && $os) {
