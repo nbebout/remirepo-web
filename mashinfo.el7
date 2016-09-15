@@ -140,6 +140,7 @@ php70-php-horde-horde-lz4
 php70-php-imap
 php70-php-interbase
 php70-php-intl
+php70-php-ioncube-loader
 php70-php-json
 php70-php-ldap
 php70-php-libvirt
