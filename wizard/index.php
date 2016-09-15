@@ -39,9 +39,9 @@ $phpvers = [
     '5.4' => 'remi',
 ];
 $phpname = [
-    '7.1' => '7.1.0RC1 (for testing, not ready for production)',
-    '7.0' => '7.0.10 (active support until Dec 2017)',
-    '5.6' => '5.6.25 (active support until Dec 2016)',
+    '7.1' => '7.1.0RC2 (for testing, not ready for production)',
+    '7.0' => '7.0.11 (active support until Dec 2017)',
+    '5.6' => '5.6.26 (active support until Dec 2016)',
     '5.5' => '5.5.38 (no upstream support since July 2016)',
     '5.4' => '5.4.45 (no upstream support since Sept 2015)',
 ];
