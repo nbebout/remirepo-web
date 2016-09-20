@@ -116,6 +116,8 @@ librabbitmq-last
 libsodium-last
 libzip-last
 msodbcsql
+msodbcsql-libs
+msodbcsql-devel
 cassandra-cpp-driver
 cassandra-cpp-driver-devel
 # For amazon users
