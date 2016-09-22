@@ -175,6 +175,7 @@ php70-php-pecl-env
 php70-php-pecl-ev
 php70-php-pecl-event
 php70-php-pecl-fann
+php70-php-pecl-gearman
 php70-php-pecl-gender
 php70-php-pecl-geoip
 php70-php-pecl-geospatial
@@ -315,6 +316,7 @@ php71-php-pecl-env
 php71-php-pecl-ev
 php71-php-pecl-event
 php71-php-pecl-fann
+php71-php-pecl-gearman
 php71-php-pecl-gender
 php71-php-pecl-geoip
 php71-php-pecl-geospatial
