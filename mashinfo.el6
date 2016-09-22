@@ -112,6 +112,7 @@ php70-php-pecl-mysql
 php70-php-pecl-oauth
 php70-php-pecl-pcs
 php70-php-pecl-pcs-devel
+php70-php-pecl-pdflib
 php70-php-pecl-propro
 php70-php-pecl-propro-devel
 php70-php-pecl-radius
@@ -250,6 +251,7 @@ php71-php-pecl-mysql
 php71-php-pecl-oauth
 php71-php-pecl-pcs
 php71-php-pecl-pcs-devel
+php71-php-pecl-pdflib
 php71-php-pecl-propro
 php71-php-pecl-propro-devel
 php71-php-pecl-radius
