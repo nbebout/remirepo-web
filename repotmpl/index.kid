@@ -18,8 +18,8 @@ def ymd(stamp):
 			<h1><span><a href="/">Remi's RPM repository - Packages</a></span></h1>
 		</div>
 		<p id="prelude">
-			<a href="http://blog.remirepo.net/">Blog</a> | 
-			<a href="http://forum.remirepo.net/">Forum</a> |
+			<a href="https://blog.remirepo.net/">Blog</a> |
+			<a href="https://forum.remirepo.net/">Forum</a> |
 			<a href="/">Repository</a>
 		</p>
 		<p class="nav">Jump to letter: [
