@@ -535,6 +535,7 @@ php56-php-pecl-pq
 php56-php-pecl-propro
 php56-php-pecl-propro-devel
 php56-php-pecl-protocolbuffers
+php56-php-pecl-protobuf
 php56-php-pecl-quickhash
 php56-php-pecl-radius
 php56-php-pecl-raphf
