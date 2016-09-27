@@ -56,9 +56,9 @@ $type = (isset($_POST['type']) && isset($types[$_POST['type']])  ? $_POST['type'
 			<h1><span><a href="/">Remi's RPM repository - Configuration wizard</a></span></h1>
 		</div>
 		<p id="prelude">
-			<a href="http://blog.remirepo.net/">Blog</a> | 
-			<a href="http://forum.remirepo.net/">Forums</a> | 
-			<a href="http://rpms.remirepo.net/">Repository</a>
+			<a href="https://blog.remirepo.net/">Blog</a> |
+			<a href="https://forum.remirepo.net/">Forums</a> |
+			<a href="https://rpms.remirepo.net/">Repository</a>
 		</p>
 		<div id="wrapper">
 			<div id="main">
