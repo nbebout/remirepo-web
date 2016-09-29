@@ -163,6 +163,8 @@ if ($php && $os && $type && !$err) {
     if ($type == 'base') {
         printf("<li>You want a <b>single version </b> which means replacing base packages from the distribution</li><br />");
 
+        printf("<li>Packages have the <b>same name</b> than the base repository, ie php-*</li><br />");
+
         if (!$phpvers[$php]) {
             printf("<li>Sorry, but PHP version <b>%s</b> are not yet available for <b>%s</b> as single version, try multiple versions.</li><br />", $php, $os);
 
