@@ -161,6 +161,7 @@ php70-php-snappy
 php70-php-snmp
 php70-php-suhosin
 php70-php-soap
+php70-php-tarantool
 php70-php-tidy
 php70-php-xml
 php70-php-xmlrpc
@@ -299,6 +300,7 @@ php71-php-snmp
 php71-php-snappy
 php71-php-suhosin
 php71-php-soap
+php71-php-tarantool
 php71-php-tidy
 php71-php-xml
 php71-php-xmlrpc
