@@ -22,7 +22,7 @@ http://remi.mirrors.cu.be/enterprise/$releasever/safe/$basearch/
 http://mirror.innosol.asia/remi/enterprise/$releasever/safe/$basearch/
 http://mirror.neolabs.kz/remi/enterprise/$releasever/safe/$basearch/
 http://mirror.veriteknik.net.tr/remi/enterprise/$releasever/safe/$basearch/
-http://remi.mirror.ate.info/enterprise/$releasever/safe/$basearch/
+https://remi.mirror.ate.info/enterprise/$releasever/safe/$basearch/
 https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/$releasever/safe/$basearch/
 https://nl.mirror.babylon.network/remi/enterprise/$releasever/safe/$basearch/
 https://fr.mirror.babylon.network/remi/enterprise/$releasever/safe/$basearch/

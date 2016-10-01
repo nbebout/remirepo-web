@@ -1,0 +1,6 @@
+https://remi.mirror.ate.info/enterprise/$releasever/test/$basearch/
+https://mirrors.tuna.tsinghua.edu.cn/remi/enterprise/$releasever/test/$basearch/
+https://nl.mirror.babylon.network/remi/enterprise/$releasever/test/$basearch/
+https://fr.mirror.babylon.network/remi/enterprise/$releasever/test/$basearch/
+https://ca.mirror.babylon.network/remi/enterprise/$releasever/test/$basearch/
+https://rpms.remirepo.net/enterprise/$releasever/test/$basearch/

@@ -4,7 +4,7 @@ cd $(dirname $0)
 
 case "$1" in
 
-help) echo -e "\nOptions: save resto diff add on off status\n"
+help) echo -e "\nOptions: save resto diff add on off status https\n"
 	;;
 
 save) echo -n "Saving mirror definition..."
@@ -103,7 +103,19 @@ status) if [ -z "$2" ]; then
 	fi
 	grep -- "$2" */{?,??}/*/mirror
 	;;
-	*) 	echo -e "\nMirror list:\n"
+
+https)
+	echo "Generating https mirror list"
+	for i in enterprise/{5,6,7}/*/mirror
+	do
+		j=$(dirname $i)/httpsmirror
+		grep '^https' $i >$j
+		grep 'remirepo.net' $i | sed -e 's/^http:/https:/' >>$j
+	done
+	;;
+
+*) 	echo -e "\nMirror list:\n"
 	cat enterprise/7/remi/mirror
 	;;
+
 esac
