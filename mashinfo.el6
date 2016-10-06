@@ -21,6 +21,7 @@ librdkafka-devel
 libsodium-last
 libzip-last
 mongo-c-driver
+mongo-c-driver-libs
 mongo-c-driver-devel
 termbox
 termbox-devel
