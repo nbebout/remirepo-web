@@ -76,6 +76,9 @@ $mirrors = array(
 	'http://fr.mirror.babylon.network/remi/',
 	'http://ca.mirror.babylon.network/remi/',
 	'http://mirror.23media.de/remi/',
+	'http://repo1.dal.innoscale.net/remi/',
+	'http://repo1.sea.innoscale.net/remi/',
+	'http://repo1.ash.innoscale.net/remi/',
 );
 $deprecated = array(
 	'http://mirror.lablus.com/remi/',

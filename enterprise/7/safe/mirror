@@ -3,7 +3,7 @@ http://fr2.rpmfind.net/linux/remi/enterprise/7/safe/$basearch/
 http://mirrors.mediatemple.net/remi/enterprise/7/safe/$basearch/
 http://remi.mirrors.arminco.com/enterprise/7/safe/$basearch/
 http://remi.schlundtech.de/enterprise/7/safe/$basearch/
-http://mirror5.layerjet.com/remi/enterprise/7/safe/$basearch/
+## http://mirror5.layerjet.com/remi/enterprise/7/safe/$basearch/
 http://mirror.awanti.com/remi/enterprise/7/safe/$basearch/
 ## http://mirror.smartmedia.net.id/remi/enterprise/7/safe/$basearch/
 ## http://mirror.1000mbps.com/remi/enterprise/7/safe/$basearch/
@@ -29,3 +29,4 @@ https://nl.mirror.babylon.network/remi/enterprise/7/safe/$basearch/
 https://fr.mirror.babylon.network/remi/enterprise/7/safe/$basearch/
 http://mirror.23media.de/remi/enterprise/7/safe/$basearch/
 https://ca.mirror.babylon.network/remi/enterprise/7/safe/$basearch/
+http://repo1.dal.innoscale.net/remi/enterprise/7/safe/$basearch/
