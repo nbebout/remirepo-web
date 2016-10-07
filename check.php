@@ -79,6 +79,7 @@ $mirrors = array(
 	'http://repo1.dal.innoscale.net/remi/',
 	'http://repo1.sea.innoscale.net/remi/',
 	'http://repo1.ash.innoscale.net/remi/',
+	'http://mirror.bebout.net/remi/',
 );
 $deprecated = array(
 	'http://mirror.lablus.com/remi/',
