@@ -1,7 +1,7 @@
 http://remi.schlundtech.de/fedora/$releasever/remi/$basearch/
 http://mirrors.mediatemple.net/remi/fedora/$releasever/remi/$basearch/
 http://fr2.rpmfind.net/linux/remi/fedora/$releasever/remi/$basearch/
-## http://mirror5.layerjet.com/remi/fedora/$releasever/remi/$basearch/
+http://mirror5.layerjet.com/remi/fedora/$releasever/remi/$basearch/
 http://remi.mirrors.arminco.com/fedora/$releasever/remi/$basearch/
 http://rpms.remirepo.net/fedora/$releasever/remi/$basearch/
 ## http://mirror.smartmedia.net.id/remi/fedora/$releasever/remi/$basearch/
