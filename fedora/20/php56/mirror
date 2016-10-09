@@ -27,3 +27,6 @@ https://nl.mirror.babylon.network/remi/fedora/$releasever/php56/$basearch/
 https://fr.mirror.babylon.network/remi/fedora/$releasever/php56/$basearch/
 http://mirror.23media.de/remi/fedora/$releasever/php56/$basearch/
 https://ca.mirror.babylon.network/remi/fedora/$releasever/php56/$basearch/
+http://repo1.ash.innoscale.net/remi/fedora/$releasever/php56/$basearch/
+http://repo1.sea.innoscale.net/remi/fedora/$releasever/php56/$basearch/
+http://repo1.dal.innoscale.net/remi/fedora/$releasever/php56/$basearch/
