@@ -133,7 +133,7 @@ if (!$cli) {
 $pids = array();
 $ref = getRepoTime($full);
 if ($ref) {
-	printf(($cli ? "Check of %s (%s)\n" : "<h3>%s - %s</h3>\n"), $name, date('r', $ref));
+	printf(($cli ? "Check %d mirrors of %s (%s)\n" : "<h3>%s - %s</h3>\n"), count($mirrors), $name, date('r', $ref));
 	if (!$cli) echo "<ul class='pkglist'>\n";
 	foreach ($mirrors as $mirror) {
 		if ($cli) {
@@ -169,6 +169,7 @@ if ($ref) {
 		}
 	}
 	if ($cli) {
+		$nb=count($pids);
 		while (count($pids)) {
 			printf("Wait %d\r", count($pids));
 			$pid = pcntl_wait($status);
@@ -179,6 +180,7 @@ if ($ref) {
 				unset($pids[$pid]);
 			}
 		}
+		if ($nb) printf("%d mirrors checked.\n", $nb);
 	} else {
 		echo "</ul>\n";
 	}
